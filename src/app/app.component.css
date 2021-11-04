@@ -1,0 +1,11 @@
+.stock-item-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    align-items: center;
+    align-content: space-around;
+    column-gap: 10px;
+}

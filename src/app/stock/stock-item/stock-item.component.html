@@ -1,0 +1,9 @@
+<div [ngClass]="stockClasses">
+    <div class="name"><h3>{{ stock.name + ' - ' + stock.code}}</h3></div>
+    <div class="price">Current Price: $ {{stock.price}}</div>
+    <div class="prevPrice">Previous Price: $ {{stock.previousPrice}}</div>
+    <div class="change">% Change: (<span *ngIf=stock.isPositiveChange()>+</span>{{stock.percentChange}}%)</div>
+    <div class="favButtonContainer">
+        <button (mouseover)="handleMouseOver()" (click)="handleFavorite($event)">{{buttonText}}</button>
+    </div>
+</div>

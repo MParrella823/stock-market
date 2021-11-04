@@ -1,0 +1,46 @@
+.stock-container {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.stock-container .name h3, .stock-container .name h4 {
+    display: inline-block;
+}
+
+.stock-container .price {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.stock-container .prevPrice, .change {
+    font-size: 0.8rem;
+}
+
+.stock-container .favButtonContainer {
+    padding: 10px;
+}
+
+.positive {
+    background-color: green;
+    color: white;
+}
+
+.negative {
+    background-color: red;
+}
+
+.large-change {
+    font-size: 1.3rem;
+}
+
+.small-change {
+    font-size: 0.8rem;
+}
+
+.random {
+    background-color: purple;
+}
